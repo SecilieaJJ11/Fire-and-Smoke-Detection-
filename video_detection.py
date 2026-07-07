@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # Load fire and smoke model
-model = YOLO("best.pt")
+model = YOLO("models/best.pt")
 
 # Video path
 video_path = "test_videos/test.mp4"
